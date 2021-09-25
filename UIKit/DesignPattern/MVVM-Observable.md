@@ -29,7 +29,7 @@ struct FeedViewModel {
     var tweets: Observable<someModel> = Observable([])
 }
 
-``
+```
 
 Bind like this in ViewController
 ```swift
