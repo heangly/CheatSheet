@@ -1,6 +1,9 @@
-top left, top right, bottom left, bottom right. If any side of corner is not wanted, just delete it.
+//        layerMinXMinYCorner = top left
+//        layerMinXMaxYCorner = bottom left
+//        layerMaxXMinYCorner = top right
+//        layerMaxXMaxYCorner = bottom right
 
 ```swift
-label.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMinYCorner]
+label.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMinYCorner, .layerMaxXMaxYCorner]
 
 ```
